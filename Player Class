@@ -1,0 +1,18 @@
+class Player : public Character 
+{
+private:
+int value = 0;
+
+public:
+Player();
+Player(string n, string t, int h, int ad, int v);
+void setValue (int v);
+int getValue() const;
+
+};
+
+Player::Player() : Character() {
+value = 0;
+}
+
+ostream& operator << (os 
